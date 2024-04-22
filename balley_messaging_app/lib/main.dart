@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:balley_messaging_app/frontpage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -35,7 +36,7 @@ class _startState extends State<start> {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => firstpage(),
+            builder: (context) => frontpage(),
           ));
     });
   }
